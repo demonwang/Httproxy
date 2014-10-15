@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9ABBB64F19EEBAFD007016C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABBB64E19EEBAFD007016C6 /* main.m */; };
+		9ABBB65719EEBB1E007016C6 /* HttpProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABBB65619EEBB1E007016C6 /* HttpProxy.m */; };
+		9ABBB65919EEBC40007016C6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ABBB65819EEBC40007016C6 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		9ABBB64B19EEBAFD007016C6 /* Httproxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Httproxy; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABBB64E19EEBAFD007016C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ABBB65519EEBB1E007016C6 /* HttpProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpProxy.h; sourceTree = "<group>"; };
+		9ABBB65619EEBB1E007016C6 /* HttpProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpProxy.m; sourceTree = "<group>"; };
+		9ABBB65819EEBC40007016C6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABBB65919EEBC40007016C6 /* CFNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,7 @@
 		9ABBB64219EEBAFD007016C6 = {
 			isa = PBXGroup;
 			children = (
+				9ABBB65819EEBC40007016C6 /* CFNetwork.framework */,
 				9ABBB64D19EEBAFD007016C6 /* Httproxy */,
 				9ABBB64C19EEBAFD007016C6 /* Products */,
 			);
@@ -58,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				9ABBB64E19EEBAFD007016C6 /* main.m */,
+				9ABBB65519EEBB1E007016C6 /* HttpProxy.h */,
+				9ABBB65619EEBB1E007016C6 /* HttpProxy.m */,
 			);
 			path = Httproxy;
 			sourceTree = "<group>";
@@ -118,6 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ABBB65719EEBB1E007016C6 /* HttpProxy.m in Sources */,
 				9ABBB64F19EEBAFD007016C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +242,7 @@
 				9ABBB65419EEBAFD007016C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
