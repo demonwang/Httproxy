@@ -13,8 +13,8 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         NSLog(@"Hello, World!");
-        [HttpProxy HttpPostUrl:@"http://127.0.0.1:8080/v1/object" data:nil];
-        [HttpProxy HttpGetUrl:@"http://127.0.0.1:8080/v1/user" data:nil];
+        [HttpProxy HttpPostUrl:@"http://api.map.baidu.com/location/ip" data:@"ak=92495cecd866429a588038601fd512f5"];
+        //[HttpProxy HttpGetUrl:@"http://api.map.baidu.com/location/ip" data:@"ak=92495cecd866429a588038601fd512f5"];
     }
     return 0;
 }
